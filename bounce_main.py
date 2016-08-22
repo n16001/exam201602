@@ -201,7 +201,7 @@ for y in range(BLOCK_HEIGHT):
 
 paddle = Paddle(canvas, PADDLE_SPEED, 'black')
 ball = Ball(canvas, paddle, blocks, BALL_SPEED, 'red')
-gameover = TextLabel(canvas, ball, 'GameOver!', 250, 300, 50, 'red') 
+gameover = TextLabel(canvas, ball, 'GameOver!', 250, 300, 50, 'red')
 score = TextLabel(canvas, ball, '0', 460, 680, 20, 'black')
 
 
