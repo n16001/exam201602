@@ -205,6 +205,7 @@ gameover = TextLabel(canvas, ball, 'GameOver!', 250, 300, 50, 'red')
 score = TextLabel(canvas, ball, '0', 460, 680, 20, 'black')
 
 
+
 # mainloop
 """while True:
     if ball.hit_bottom == False:
